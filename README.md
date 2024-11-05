@@ -44,8 +44,8 @@ Exploratory Data Analysis (EDA) based on customer data is a fundamental process 
 ### Data cleaning
 ------------
 Excel served as the primary tool for initial data preparation, effectively addressing issues such as missing spaces and duplicates to ensure data accuracy. It was also utilized to analyze subscription patterns and calculate essential metrics, including the average subscription duration. The use of pivot tables facilitated a comprehensive analysis, allowing for:
- **Average Subscription Duration**: Calculated average subscription duration across all customers, revealing how long customers typically remain subscribed.
- **Subscription Patterns by Region**: Created reports summarizing subscriptions by region, helping to pinpoint regions with the highest engagement.
+ - **Average Subscription Duration**: Calculated average subscription duration across all customers, revealing how long customers typically remain subscribed.
+ - **Subscription Patterns by Region**: Created reports summarizing subscriptions by region, helping to pinpoint regions with the highest engagement.
   
 
   ![Screenshot (54)](https://github.com/user-attachments/assets/2b5d35d4-55a8-4a66-97e2-cf2b1e816de6)
