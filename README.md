@@ -1,10 +1,10 @@
-# -Customer-Segmentation-for-a-Subscription-Service
+# Subscription Service Customer Analysis
 
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Column Description](#column-description)
 - [Tools Used](#tools-used)
-- [Exploratory Data Analysis (EDA)](#exploratory-data--analysis-(eda))
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-(EDA))
 - [Recommendations](#recommendations)
 - [Conclusion](#conclusion)
 
@@ -68,25 +68,56 @@ SQL was employed to conduct data queries, providing a detailed analysis of custo
 --------
 ### Data Visualization
 In Power BI, I developed a dynamic, interactive dashboard that visually communicates these insights, allowing for easy exploration. Key findings included:
-- **Sales Overview**: A high-level view of total subscriptions, cancellations, and revenue, showing overall performance trends.
-- **Customer Segmentation**: An analysis of customer behavior across segments, including active and canceled subscriptions.
-- **Regional Trends and Cancellations**: Breakdown of regions with high cancellation rates, displayed with interactive visuals to emphasize trends.
-- **Time-Based Insights**: Monthly sales and cancellation trends were visualized to show seasonality in customer behavior.
+- Total Number of Customers:
+The dataset has 33.79K total customers. This is a substantial customer base, and we can infer that the subscription service has a wide reach.
+
+- Total Revenue:
+The total revenue generated is 68 million (68M). This indicates a healthy revenue stream, but further breakdowns are necessary to understand which customer segments contribute the most to the revenue.
+
+- Average Subscription Duration:
+The average subscription duration is 365.35 days (about a year). This suggests that most customers are subscribed for a year, which is typical in many subscription models. However, further segmentation by subscription type and region can provide more insights into retention trends.
+
+- Total Discontinued Subscriptions:
+The total number of discontinued subscriptions is 19K, which highlights a potential area of concern for the business. Investigating why these subscriptions were canceled can provide valuable insights for customer retention strategies.
+
+- Subscription Types:
+The distribution of revenue by subscription type shows that:
+
+Basic subscriptions are generating the highest revenue, followed by Premium and Standard subscriptions.
+The large revenue contribution from the Basic plan could indicate that it is the most popular or the most affordable plan, making it attractive to a wide customer base.
+- Customer Distribution by Region:
+The customer base is well-distributed across regions:
+
+   - East has a slightly lower number of subscribers compared to South, North, and West, but the region shows a higher proportion of discontinued subscriptions, which might indicate a higher churn rate.
+   - West has a steady number of customers, and the churn seems lower compared to the East.
+- Revenue by Region:
+
+The East region shows the highest revenue, followed by the North region, although there is a slight dip in the West and South.
+Revenue is highest in East, which is significant because it could indicate where the service is performing best.
+- Average Revenue by Subscription Type:
+
+The average revenue from each subscription type is nearly equal across all three types (Basic, Premium, and Standard). This points to a balanced contribution from each subscription model but may warrant further segmentation analysis to determine where most of the growth is occurring.
+
+
+![Screenshot (60)](https://github.com/user-attachments/assets/08014529-fcfc-4972-8e09-545f7deeafb7)
+
 
 ------------
 
 ## Recommendations
 ------------
-1. **Target High-Cancellation Regions**: Focus retention efforts on regions with high cancellation rates to improve customer retention.
-2. **Promote Popular Subscription Types**: Invest in marketing the most popular subscription types to attract new customers.
-3. **Analyze Short-Term Cancellations**: Examine factors influencing cancellations within the first six months to identify improvement opportunities in early customer engagement.
+1. Customer Retention: The high rate of discontinued subscriptions (19K) is a concern. It is critical to conduct further analysis to identify why customers are unsubscribing. Implementing a customer feedback mechanism and improving customer support could reduce churn. Targeting customers who have been with the service for less than a year could help improve retention.
+
+2. Revenue Optimization: The revenue breakdown by subscription type indicates that Basic subscriptions generate the highest revenue. The company could consider expanding this plan, offering more perks or value-added services to encourage longer subscriptions. However, the Premium and Standard plans should not be neglected; tailored promotions and features could increase their adoption.
+3. Regional Focus:The East region shows a high churn rate and significant revenue, but it may need more attention in terms of customer retention initiatives.
+South and West regions seem stable, but increasing customer acquisition efforts in these regions may help maintain or boost growth.
+The company should focus on targeted marketing campaigns in the East and North regions to increase the number of active subscriptions while reducing cancellations.
 
 ## Conclusion
 
-The analysis gives useful information on how customers act, what they like, and trends in different areas. Key findings show that customers in each region have different needs, prefer various products, and have specific characteristics that affect what they buy. Overall, this analysis of customer data highlights the need to focus on the customer. Adjusting strategies to meet the unique needs of each customer group will help the company succeed, stay in tune with changing customer expectations, and stay competitive in the market.
+The Subscription Service Customer Analysis dashboard provides a clear and detailed view of the current subscription landscape. The company has a solid customer base and a significant revenue stream, but customer retention needs attention, particularly in the East region where cancellations are higher. The Basic subscription plan is a strong revenue driver, but the Premium and Standard plans should be further explored for growth opportunities.
 
-
-
+This Dashboard helps identify patterns, trends, and potential areas of improvement, allowing the company to refine strategies for customer engagement, retention, and revenue maximization. By focusing on these key areas, the company can continue to grow its subscriber base while improving overall customer satisfaction.
 
 
 
